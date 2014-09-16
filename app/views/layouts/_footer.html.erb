@@ -1,12 +1,21 @@
-<footer class="footer">
-  <small>
-    <a href="http://railstutorial.org/">Rails Tutorial</a>
-    by Michael Hartl
-  </small>
-   <nav> 
-	<ul>
-		<li><%= link_to "About", about_path %></li>
-		<li><%= link_to "Contact", contact_path %></li>
-	</ul> 
-   </nav>
+<footer class="site-footer">
+	<div class="wrapper" style="background:#333333"></div>
+	<div class="wrapper content-no-printable" style="background:#000000">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12">
+					<nav class="footer-nav"></nav>
+						<span class="dropdown"></span>
+							<li><%= link_to "Link to FB", about_path %></li>
+							<li><%= link_to "Link to Twitter", contact_path %></li>
+						<span></span>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
+
+
+
+		
