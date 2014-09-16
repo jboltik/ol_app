@@ -1,4 +1,41 @@
 @import "bootstrap";
+
+/* trying it out */
+body{
+  margin-top: 50px;
+}
+
+.divide-nav{
+  height: 50px;
+  background-color: #428bca;
+}
+
+.divide-text{
+    color:#fff;
+    line-height: 20px;
+    font-size:20px;
+    padding: 15px 0;
+}
+
+.affix {
+  top: 50px;
+  width:100%;
+}
+
+.filler{
+  min-height: 2000px;
+}
+
+.navbar-form {
+   padding-left: 0;
+}
+
+.navbar-collapse{
+   padding-left:0; 
+}
+
+
+
 /* universal */
 html {
   overflow-y: scroll;
@@ -59,16 +96,18 @@ font-size: 1.1em; line-height: 1.7em;
   text-decoration: none;
 }
 
-.text {
+.navtext {
   text-transform: uppercase;
   margin-top: 10px;
   font-size: 1em;
-  font-color: #fff;
+  color: #FFFFFF;
 }
 
 .container-top {
   color: #fff;
 }
+
+
 
 /* footer */
 footer {
