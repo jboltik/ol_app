@@ -115,6 +115,29 @@ font-size: 1.1em; line-height: 1.7em;
 .form-group{
   margin-bottom: 10px;
 }
+
+/* home */
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0px; 
+  line-height: 26px; 
+  text-align: center; 
+  vertical-align: middle;
+  cursor: pointer; 
+}
+
+.btn-white {
+
+}
+.home-intro {
+  margin-bottom: 24px;
+  background-color: #00CDCD;
+  color: #FFFFFF;
+  border: none;
+}
+
 /* footer */
 footer {
   margin-top: 45px;
