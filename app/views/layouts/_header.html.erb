@@ -1,9 +1,70 @@
+<header class="navbar navbar-fixed-top navbar-inverse" style="top: 0px; left: 0px;">
+	<div class="wrapper" style="background:#000000">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12 clearfix">
+					<article class="system-message span6">
+						<p>
+							<strong>
+								FREE STANDARD SHIPPING
+							</strong>
+							ON US ORDERS
+						</p>
+					</article>
+					<nav class="header-nav clearfix span6">
+							<a class="iphone-hidden" href="#">
+								<b class="icon-shopping-cart icon-white"></b>
+								<span class="oolaa-header-cart-count iphone-visible">
+									0
+								</span>
+							</a>
+							<a class="iphone-hidden">
+								<li><%= link_to "LOGIN", box_path %></li> 
+							</a
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper" style="background:#000000">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span12 clearfix">
+					<nav class="main-nav clearfix span9">
+							<a id="oolaa-logo" href="/">
+								<%= link_to image_tag("logo6.png", alt:"OOLAA") %>
+							</a>			
+							<a><%= link_to "SHOP", box_path, :class=> "navShop" %></a> 
+							<a><%= link_to "ABOUT", about_path, :class=> "navAbout" %></a>
+							<a><%= link_to "CONTACT", contact_path, :class=> "navContact" %></a> 
+					</nav>
+						<form class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+						</form>		
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+
+<!--
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
 	<div class="container">
 		<ul class="nav pull-right">
 			<li><%= link_to "LOGIN", '#' %></li>
 			<a class="cartlink" href="<%= box_path %>"><i class="icon-shopping-cart icon-white"></i></a>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+				</div>
+			</form>
 		</ul>
 		<ul class="nav pull-left">
 			<p class="navtext"> <strong>free standard shipping</strong> on us orders</p>
@@ -11,20 +72,19 @@
 	</div>
 	
 	<div class="container">
-		<nav>
-			<ul class="nav pull-right">
-				<form class="navbar-form navbar-left" role="search">
-  					<div class="form-group">
-    					<input type="text" class="form-control" placeholder="Search">
-  					</div>
-				</form>
-			</ul> 
-			<ul class="nav pull-left">
-				<li><%= link_to "SHOP", box_path %></li> 
-				<li><%= link_to "ABOUT", about_path %></li>
-				<li><%= link_to "CONTACT", contact_path %></li> 
-			</ul>
-		</nav>
-    </div>
-  </div>
+		<div class="row-fluid">
+			<div class="span12 clearfix">
+				<nav class="main-nav clearfix span9">
+					<a id="home-logo" href="/">
+						<img alt="OOLAA" style:"width:230px" src="assets/images/logo.png"></img>
+					</a>
+					<ul class="nav pull-left">
+					<li><%= link_to "SHOP", box_path %></li> 
+					<li><%= link_to "ABOUT", about_path %></li>
+					<li><%= link_to "CONTACT", contact_path %></li> 
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 </header> 
