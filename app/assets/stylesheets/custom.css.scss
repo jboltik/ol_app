@@ -35,12 +35,13 @@ body{
 
 
 
+
 /* universal */
 html {
   overflow-y: scroll;
 }
 body {
-  padding-top: 90px;
+  padding-top: 60px;
 }
 section {
   overflow: auto;
@@ -140,7 +141,7 @@ header.navbar-fixed-top nav.header-nav a:hover {
   background-color: #00CDCD;
   color: #FFFFFF;
   border: none;
-}
+
 
 /* footer */
 footer {
@@ -148,7 +149,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   padding-left: 20px;
-  color: #999;
+
 }
 footer a {
   color: #555;
