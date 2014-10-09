@@ -1,10 +1,13 @@
 OlApp::Application.routes.draw do
+  
+
   root to: 'static_pages#home'
 
-  match '/box',     to: 'static_pages#box'
-  match '/about',   to: 'static_pages#about'
+  
+  match '/box', to: 'static_pages#box'
+  match '/about', to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
-  match '/faq',     to: 'static_pages#faq'
+  match '/faq', to: 'static_pages#faq'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
