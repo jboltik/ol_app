@@ -138,17 +138,19 @@ header.navbar-fixed-top nav.header-nav a:hover {
 
 /* footer */
 
-
-
-.copyright {
-    margin: 10px auto 0 auto;
-    width: 100%;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 10px;
-    font-style: normal;
-    text-align: center;
-    color: #ccbd92;
-    border-top: 1px solid #ccbd92;
+.navFaq, .navPress, .navReceivedabox {
+  vertical-align: bottom;
+  line-height: 30px;
+  font-size:15px;
+  margin: 0px 20px 0px 0px;
+  padding-top: 0px;
+  color: #787878;
 }
 
+.navFaq:hover, .navPress:hover, .navReceivedabox:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* social buttons */
 
