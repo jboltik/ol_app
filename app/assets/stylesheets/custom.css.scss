@@ -2,7 +2,7 @@
 
 /* trying it out */
 body{
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .divide-nav{
@@ -38,7 +38,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  padding-top: 40px; 
+  padding-top: 50px; 
 }
 
 section {
@@ -74,6 +74,14 @@ h2 {
 }
 p{
 font-size: 1.1em; line-height: 1.7em;
+}
+
+h3 {
+ 
+}
+
+p {
+  
 }
 
 /* header */
@@ -140,9 +148,9 @@ header.navbar-fixed-top nav.header-nav a:hover {
 
 .navFaq, .navPress, .navReceivedabox {
   vertical-align: bottom;
-  line-height: 30px;
+  line-height: 35px;
   font-size:15px;
-  margin: 0px 20px 0px 0px;
+  margin: 10px 35px 0px 0px;
   padding-top: 0px;
   color: #787878;
 }
@@ -150,6 +158,10 @@ header.navbar-fixed-top nav.header-nav a:hover {
 .navFaq:hover, .navPress:hover, .navReceivedabox:hover {
   text-decoration: none;
   color: #ffffff;
+}
+
+#facebooklink, #twitterlink, #pinterestlink {
+  margin: 10px 30px 0px 5px;
 }
 
 /* social buttons */

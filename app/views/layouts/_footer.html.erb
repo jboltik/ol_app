@@ -3,16 +3,34 @@
 			<div class="container">
 				<div class="row-fluid">
 					<div class="span12 clearfix">
-						<nav class="main-nav" style="text-align: left;">			
-							<a><%= link_to "FAQ", faq_path, :class=> "navFaq" %></a> 
-							<a><%= link_to "PRESS", press_path, :class=> "navPress" %></a>
-							<a><%= link_to "RECEIVED A BOX?", receivedabox_path, :class=> "navReceivedabox" %></a>
+						<nav class="main-nav">			
+							<a style="text-align: left;"><%= link_to "FAQ", faq_path, :class=> "navFaq" %></a> 
+							<a style="text-align: left;"><%= link_to "PRESS", press_path, :class=> "navPress" %></a>
+							<a style="text-align: left;"><%= link_to "RECEIVED A BOX?", receivedabox_path, :class=> "navReceivedabox" %></a>
+							<ul>
+							  <li id="facebooklink">
+							    <%= link_to "http://www.facebook.com/oolaausa" do %>
+							      <%= image_tag 'facebook.jpg' %>
+							    <% end %>
+							  </li>
+							  <li id="twitterlink">
+							    <%= link_to "http://www.twitter.com/oolaabox" do %>
+							      <%= image_tag 'twitter2.jpg' %>
+							    <% end %>
+							  </li>
+							  <li id="pinterestlink">
+							    <%= link_to "http://www.pinterest.com/oolaabox" do %>
+							      <%= image_tag 'pinterest.jpg' %>
+							    <% end %>
+							  </li>
+							</ul>
 						</nav>	
-						<nav class="main-nav" style="text-align: right;">
-
 					</div>
 
-					<p style="text-align: center; font-size:12px"> OOLAA GIRL LLC &#169 2014</p>
+					<p style="text-align: center; font-size:15px; color:787878;"> OOLAA GIRL LLC &#169 2014</p>
+
+
+
 				</div>
 			</div>
 		</div>

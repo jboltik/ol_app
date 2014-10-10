@@ -19,4 +19,7 @@ class StaticPagesController < ApplicationController
 
   def receivedabox
   end
+
+  def pastboxes
+  end
 end

@@ -10,6 +10,7 @@ OlApp::Application.routes.draw do
   match '/faq', to: 'static_pages#faq'
   match '/press', to: 'static_pages#press'
   match '/receivedabox', to: 'static_pages#receivedabox'
+  match '/pastboxes', to: 'static_pages#pastboxes'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
